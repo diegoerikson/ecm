@@ -9,6 +9,14 @@ use \Hcode\Model\User;
 use \Hcode\Model\Order;
 use \Hcode\Model\OrderStatus;
 
+$app->get("/logout", function(){
+   User::logout();
+   Cart::removeToSession();
+   session_regenerate_id();
+   header("Location: /login");
+   exit;
+});
+
 $app->get('/', function() {
 
 	$products = Product::listAll();
