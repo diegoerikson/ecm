@@ -1,0 +1,14 @@
+- Tela de produto com pesquisa
+- Tela de Lista de desejos
+- 
+Quantidade no pedido
+
+- Limitar campo cep pra 8 dígitos
+- 
+Links no carrousel
+
+- Editar produto e não precisar selecionar a foto novamente (vou mandar como erro)
+
+- Incluir até umas 6 fotos do produto e fazer upload
+
+- Tela minha conta colocar botão para informar endereço
