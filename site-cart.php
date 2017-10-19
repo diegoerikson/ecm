@@ -6,16 +6,17 @@ use Hcode\Model\Product;
 
 $app->get("/cart", function(){
 
-	$cart = Cart::getFromSession();
-
-	$page = new Page();
-
-	$page->setTpl("cart", [
-		'cart'=>$cart->getValues(),
-		'products'=>$cart->getProducts(),
-		'error'=>Cart::getMsgError()
-	]);
-
+   $cart = Cart::getFromSession();
+   
+   $cart->checkZipCode();
+   
+   $page = new Page();
+   
+   $page->setTpl("cart", [
+     'cart'=>$cart->getValues(),
+     'products'=>$cart->getProducts(),
+     'error'=>Cart::getMsgError()
+   ]);
 });
 
 $app->get("/cart/:idproduct/add", function($idproduct){

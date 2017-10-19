@@ -259,6 +259,12 @@ class Cart extends Model {
 
 	}
 
+	public function checkZipCode()
+	{
+	   $products = $this->getProducts();
+	   if (!count($products) > 0) $this->setvlfreight('');
+	}
+
 	public static function formatValueToDecimal($value):float
 	{
 
