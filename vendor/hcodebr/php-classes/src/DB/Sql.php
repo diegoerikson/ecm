@@ -4,10 +4,10 @@ namespace Hcode\DB;
 
 class Sql {
 
-	const HOSTNAME = "ecommercebd.mysql.dbaas.com.br";
-	const USERNAME = "ecommercebd";
-	const PASSWORD = "ecommercebd1";
-	const DBNAME = "ecommercebd";
+	const HOSTNAME = "localhost";
+	const USERNAME = "arthur";
+	const PASSWORD = "arthurcord12";
+	const DBNAME = "db_ecommerce";
 
 	private $conn;
 

@@ -45,7 +45,7 @@ class Product extends Model {
 			":vlheight"=>$this->getvlheight(),
 			":vllength"=>$this->getvllength(),
 			":vlweight"=>$this->getvlweight(),
-			":desurl"=>$this->getdesurl()
+			":desurl"=>$this->getdesurl(),
 		));
 
 		$this->setData($results[0]);
