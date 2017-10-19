@@ -3,7 +3,7 @@
 - 
 Quantidade no pedido
 
-- Limitar campo cep pra 8 dígitos
+- Limitar campo cep pra 8 dígitos - Ok
 - 
 Links no carrousel
 
