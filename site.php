@@ -29,6 +29,21 @@ $app->get('/', function() {
 
 });
 
+$app->get('/products', function() {
+
+	$products = Product::listAll();
+
+	$page = new Page();
+
+	$pages = [];
+
+	$page->setTpl("products", [
+		'products'=>Product::checkList($products),
+		'pages'=>$pages
+	]);
+
+});
+
 $app->get("/categories/:idcategory", function($idcategory){
 
 	$page = (isset($_GET['page'])) ? (int)$_GET['page'] : 1;

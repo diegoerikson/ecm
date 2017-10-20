@@ -3,12 +3,14 @@
 - 
 Quantidade no pedido
 
-- Limitar campo cep pra 8 dígitos - Feito
+- Limitar campo cep pra 8 dígitos - Resolvido
 - 
 Links no carrousel
 
-- Editar produto e não precisar selecionar a foto novamente (vou mandar como erro)
+- Editar produto e não precisar selecionar a foto novamente (vou mandar como erro) - Resolvido
 
 - Incluir até umas 6 fotos do produto e fazer upload
 
 - Tela minha conta colocar botão para informar endereço
+
+- Criar sub-categorias
